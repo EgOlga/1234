@@ -1,32 +1,6 @@
-#Егорова Ольга
-#Длина слова
-a = 'Hello, Denis!'
-print(len(a))
-
-#Суммы и разности
-first=35
-second=27
-summa=first+second
-diff=first-second
-print(summa)
-print(diff)
-
-#Среднее арифметическое
-first=35
-second=27
-third=76
-mean=(first+second+third)//3
-print(mean)
-
-#Простые строчки
-first_string=("Вторник")
-second_string=("Понедельник")
-print(second_string + ", " + first_string)
-
-#Сложная формула
-a=7
-b=10
-c=21
-f=(a*b)+(a*c)
-#print(f)
-print((f**3)/2)
+#Егорова Ольга Переменные
+sum_completed_homework = 12
+sum_working_hour = 1.5
+name_course = 'Python'
+time_for_one_task = sum_working_hour / sum_completed_homework
+print('Курс:', name_course +', ' + 'всего задач:'+ (str (sum_completed_homework)) + ', ' + 'затрачено часов:', (str (sum_working_hour)) + ', ' +  'среднее время выполнения', time_for_one_task, 'часа' + '.')
