@@ -6,9 +6,6 @@ def divide(first, second):
         return first / second
 
 if __name__ == '__main__':
-    pass
-
-
-print(divide(6, 0))
-print(divide(56, 4))
+    print(divide(6, 0))
+    print(divide(56, 4))
 
