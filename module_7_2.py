@@ -1,4 +1,4 @@
-def custom_write(file_name, strings):
++def custom_write(file_name, strings):
     strings_positions = {}
     file = open(file_name, "a", encoding="UTF-8")
     for i, string in enumerate(strings, 1):
